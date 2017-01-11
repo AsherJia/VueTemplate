@@ -32,8 +32,8 @@ module.exports = {
     resolve: {
         modulesDirectories: ['node_modules'],
         alias: {
-            'vue': 'vue/dist/vue.js',
-            'vuex': 'vuex/dist/vuex.js',
+            'vue$': 'vue/dist/vue.js',
+            'vuex$': 'vuex/dist/vuex.js',
             'vueRouter$': 'vue-router/dist/vue-router.js',
             'vueResource$': 'vue-resource/dist/vue-resource.js'
         }

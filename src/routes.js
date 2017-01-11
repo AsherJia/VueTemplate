@@ -1,9 +1,7 @@
 import App from './app.vue'
 import About from './components/about/about.vue'
 import User from './components/user/user.vue'
-import About1 from './components/about/about1.vue'
-import About2 from './components/about/about2.vue'
-import About3 from './components/about/about3.vue'
+import Counter from './components/conuter/counter.vue'
 
 export default [
     {
@@ -13,26 +11,17 @@ export default [
             {
                 path: '/about',
                 name: 'about',
-                components: {
-                    default: About,
-                    header: About1,
-                    bottom: About2
-                },
-                redirect: {
-                    name: 'user'
-                },
-                children: [
-                    {
-                        path: 'about3',
-                        name: 'about3',
-                        component: About3
-                    }
-                ]
+                component: About,
             },
             {
                 path: '/user/:userName',
                 name: 'user',
                 component: User
+            },
+            {
+                path: '/counter',
+                name: 'counter',
+                component: Counter
             }
         ]
     }
