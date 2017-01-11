@@ -6,8 +6,8 @@
     </div>
 </template>
 
-<script lang='babel'>
-import { mapActions, mapState, mapGetters } from 'vuex'
+<script lang="babel">
+import { mapActions, mapGetters } from "vuex"
 
 export default {
     data () {
@@ -19,11 +19,9 @@ export default {
         ])
     },
     computed: {
-        ...mapState({
-            count: state => state.counter.count
-        }),
         ...mapGetters({
-            doubleCount: 'double'
+            doubleCount: 'double',
+            count: 'count'
         })
     }
 }

@@ -1,7 +1,7 @@
-import App from './app.vue'
-import About from './components/about/about.vue'
-import User from './components/user/user.vue'
-import Counter from './components/conuter/counter.vue'
+import App from '../app.vue'
+import About from '../components/about/about.vue'
+import User from '../components/user/user.vue'
+import Counter from '../components/conuter/counter.vue'
 
 export default [
     {

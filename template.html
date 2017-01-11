@@ -12,20 +12,20 @@
             <router-view></router-view>
         </div>
         <script type="text/javascript">
-            var OriginTitile = document.title;
-            var titleTime;
+            var OriginTitile = document.title
+            var titleTime
             document.addEventListener('visibilitychange', function() {
                 if (document.hidden) {
-                    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile;
-                    clearTimeout(titleTime);
+                    document.title = '(つェ⊂)我藏好了哦~ ' + OriginTitile
+                    clearTimeout(titleTime)
                 }
                 else {
-                    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile;
+                    document.title = '(*´∇｀*) 被你发现啦~ ' + OriginTitile
                     titleTime = setTimeout(function() {
                         document.title = OriginTitile;
-                    }, 2000);
+                    }, 2000)
                 }
-            });
+            })
         </script>
     </body>
 </html>

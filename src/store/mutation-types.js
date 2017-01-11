@@ -1,2 +1,5 @@
-// user
-export const INCREMENT = 'INCREMENT';
+const INCREMENT = 'INCREMENT'
+
+export default {
+    INCREMENT,
+}
