@@ -9,7 +9,7 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
     modules,
     strict: process.env.NODE_ENV !== 'production', // 是否开启严格模式
-    plugins: [createLogger()],
+    plugins: [createLogger()]
 })
 
 if (module.hot) {
@@ -20,7 +20,7 @@ if (module.hot) {
         const newMutations = require('./modules').default
         // 加载新模块
         store.hotUpdate({
-            mutations: newMutations,
+            mutations: newMutations
         })
     })
 }

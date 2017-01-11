@@ -25,6 +25,7 @@ module.exports = {
             "never"
         ],
         "global-require": 0,
-        "no-param-reassign": 0
+        "no-param-reassign": 0,
+        "comma-dangle": 0
     }
 };

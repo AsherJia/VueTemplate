@@ -11,7 +11,7 @@ export default [
             {
                 path: '/about',
                 name: 'about',
-                component: About,
+                component: About
             },
             {
                 path: '/user/:userName',

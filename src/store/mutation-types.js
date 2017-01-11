@@ -1,5 +1,5 @@
 const INCREMENT = 'INCREMENT'
 
 export default {
-    INCREMENT,
+    INCREMENT
 }
